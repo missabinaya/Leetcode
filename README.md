@@ -67,4 +67,16 @@ problem statement:Write a function that reverses a string. The input string is g
 Explanation:
 
 use python builtin function reverse() method to reverse the characters in the list
--------------------------------------------------------------
+--------------------------------------------------------
+
+# DAY 6
+
+problem statement : Hint
+Given an integer x, return true if x is a palindrome, and false otherwise.
+
+ explanation:
+ 1.Take the integer x.
+ 2.Convert it into a string.
+ 3.Reverse the string using [::-1].
+ 4.Compare the original string and reversed string.
+ 5.If they are equal, return True; otherwise, return False
