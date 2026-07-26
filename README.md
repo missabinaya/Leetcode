@@ -80,8 +80,16 @@ Given an integer x, return true if x is a palindrome, and false otherwise.
  3.Reverse the string using [::-1].
  4.Compare the original string and reversed string.
  5.If they are equal, return True; otherwise, return False
- -------------------------------------------------------
+ 
+ --------------------------------------------------------
 
  # DAY 7 
 
  problem statement:Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well
+
+ explanation:
+1.Take the input number x.
+2.Find its square root using x ** 0.5.
+3.Convert the result to an integer using int().
+4.Return the integer value.
+---------------------------------------------------------
