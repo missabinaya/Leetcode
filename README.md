@@ -97,3 +97,12 @@ Given an integer x, return true if x is a palindrome, and false otherwise.
 # Day 8
 
 problem statement: Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same.
+
+Explanation:
+1.Start.
+2.Read the array nums.
+3.Remove duplicate elements from the array.
+4.Store only the unique elements in nums.
+5.Count the number of unique elements.
+6.Return the count (k).
+7.Stop
