@@ -93,3 +93,7 @@ Given an integer x, return true if x is a palindrome, and false otherwise.
 3.Convert the result to an integer using int().
 4.Return the integer value.
 ---------------------------------------------------------
+
+# Day 8
+
+problem statement: Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same.
