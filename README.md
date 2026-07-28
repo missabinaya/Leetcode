@@ -106,3 +106,7 @@ Explanation:
 5.Count the number of unique elements.
 6.Return the count (k).
 7.Stop
+--------------------------------------------------------------
+# Day 9
+
+problem statement:A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
