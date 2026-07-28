@@ -110,3 +110,12 @@ Explanation:
 # Day 9
 
 problem statement:A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+
+explanation:
+1.Read the input string.
+2.Convert all letters to lowercase.
+3.Remove all characters except letters and numbers.
+4.Reverse the cleaned string.
+5.Compare the original cleaned string with the reversed string.
+6.If both are the same, return True; otherwise, return False.
+----------------------------------------------------------------
