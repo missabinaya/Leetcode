@@ -119,3 +119,16 @@ explanation:
 5.Compare the original cleaned string with the reversed string.
 6.If both are the same, return True; otherwise, return False.
 ----------------------------------------------------------------
+
+# Day 10
+
+problem statement:Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+Explanation:
+
+1.Start.
+2.Check each element in the array.
+3.If the element is equal to or greater than the target, return its index.
+4.If no such element is found, return the length of the array.
+5.Stop.
+----------------------------------------------------------------
