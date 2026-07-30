@@ -156,3 +156,12 @@ problem statement:
 Given the root of a binary tree, return the inorder traversal of its nodes' values.
 
 explanation:
+1.Start.
+2.Create an empty list result.
+3.Visit the left subtree.
+4.Visit the root node and add its value to result.
+5.Visit the right subtree.
+6.Repeat until all nodes are visited.
+7.Return result.
+8.Stop.
+----------------------------------------------------------------
