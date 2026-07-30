@@ -150,3 +150,9 @@ explanation:
 6.Return `k`.
 7.Stop.
 ----------------------------------------------------------------
+# Day 12
+
+problem statement:
+Given the root of a binary tree, return the inorder traversal of its nodes' values.
+
+explanation:
