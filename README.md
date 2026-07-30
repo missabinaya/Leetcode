@@ -132,3 +132,21 @@ Explanation:
 4.If no such element is found, return the length of the array.
 5.Stop.
 ----------------------------------------------------------------
+# Day 11
+
+problem statement:
+Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
+
+explanation:
+### **Algorithm (Simple)**
+
+1.Start.
+2.Set `k = 0`.
+3.Traverse each element in the array.
+4.If the current element is **not equal to `val`**:
+    Store it at index `k`.
+    Increment `k` by 1.
+5.Continue until all elements are checked.
+6.Return `k`.
+7.Stop.
+----------------------------------------------------------------
