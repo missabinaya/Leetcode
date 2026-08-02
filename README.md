@@ -175,4 +175,14 @@ explanation:
 3.Convert the number back into a list of digits.
 4.Return the new list.
 ----------------------------------------------------------------
-   
+   # Day 14
+
+   problem statement:Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+
+   explanation:
+1.Set total = 0.
+2.Read each Roman symbol.
+3.If the current symbol is smaller than the next symbol, subtract it.
+4.Otherwise, add it.
+5.Return total.
+---------------------------------------------------------------
