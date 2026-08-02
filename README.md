@@ -165,3 +165,14 @@ explanation:
 7.Return result.
 8.Stop.
 ----------------------------------------------------------------
+# Day 13
+
+problem statement:You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
+
+explanation:
+1.Convert the list of digits into a number.
+2.Add 1 to the number.
+3.Convert the number back into a list of digits.
+4.Return the new list.
+----------------------------------------------------------------
+   
