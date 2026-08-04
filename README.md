@@ -60,6 +60,7 @@ explanation:
 6.Otherwise, return the average of the two middle elements.
 7.Stop.
 -----------------------------------------------------
+
 # DAY 5
 
 problem statement:Write a function that reverses a string. The input string is given as an array of characters s.
