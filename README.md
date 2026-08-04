@@ -186,3 +186,21 @@ explanation:
 4.Otherwise, add it.
 5.Return total.
 ---------------------------------------------------------------
+# Day 15
+
+problem statement:ou are given the heads of two sorted linked lists list1 and list2.Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.Return the head of the merged linked list.
+
+explanation:
+
+1.Start.
+2.Create an empty list a.
+3.Store all values from the first linked list into a.
+4.Store all values from the second linked list into a.
+5.Sort the list.
+6.Create a new linked list using the sorted values.
+7.Return the new linked list.
+8.Stop.
+----------------------------------------------------------------
+
+
+ 
