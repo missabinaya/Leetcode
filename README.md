@@ -89,10 +89,13 @@ Given an integer x, return true if x is a palindrome, and false otherwise.
  problem statement:Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well
 
  explanation:
-1.Take the input number x.
-2.Find its square root using x ** 0.5.
-3.Convert the result to an integer using int().
-4.Return the integer value.
+1.If x is 0 or 1, return x.
+2.Set left = 1 and right = x.
+3.Find the middle number mid.
+4.If mid × mid == x, return mid.
+5.If mid × mid < x, search in the right half.
+6.Otherwise, search in the left half.
+7.When the loop ends, return right the integer square root
 ---------------------------------------------------------
 
 # Day 8
