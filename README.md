@@ -209,4 +209,15 @@ explanation:
 
 problem statement:Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
 
+explanation:
+
+1.Start.
+2.Input num.
+3.While num is greater than 9:
+4.Set sum = 0.
+5.Add all the digits of num.
+6.Store the result in num.
+7.Return num.
+8.Stop.
+----------------------------------------------------------------
  
