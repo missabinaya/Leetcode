@@ -220,4 +220,15 @@ explanation:
 7.Return num.
 8.Stop.
 ----------------------------------------------------------------
- 
+ # Day 17
+
+ problem statement:Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+
+ algorithm:
+1.Start.
+2.Read the input strings haystack and needle.
+3.Search for the first occurrence of needle in haystack using the find() method.
+4.If needle is found, return its starting index.
+5.Otherwise, return -1.
+6.Stop.
+-----------------------------------------------------------------
