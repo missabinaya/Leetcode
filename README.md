@@ -232,3 +232,19 @@ explanation:
 5.Otherwise, return -1.
 6.Stop.
 -----------------------------------------------------------------
+# Day 18
+
+problem statement:
+Write a function to find the longest common prefix string amongst an array of strings.
+If there is no common prefix, return an empty string "".
+
+Algorithm:
+1.Start
+2.Take the first string as the prefix.
+3.Compare the prefix with each remaining string.
+4.If the string does not start with the prefix, remove the last character from prefix.
+5.Repeat until the string starts with prefix.
+6.If prefix becomes empty, return "".
+7.After checking all strings, return prefix.
+8.Stop
+--------------------------------------------------------------------------------------------
