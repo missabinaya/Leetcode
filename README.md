@@ -267,3 +267,15 @@ algorithm:
 # Day 20
 
 problem statement:
+Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.
+
+algorithm:
+1.Start
+2.Set current to the head of the list.
+3.Check if current and current.next have the same value.
+4.If they are the same, skip the duplicate node.
+5.Otherwise, move current to the next node.
+6.Repeat until the end of the list.
+7.Return the head.
+8.Stop
+---------------------------------------------------------------
