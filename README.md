@@ -285,3 +285,11 @@ problem statement:
 Given a string s consisting of words and spaces, return the length of the last word in the string.
 
 algorithm:
+
+1.Start.
+2.Set i to the last character.
+3.Skip spaces from the end.
+4.Count characters until a space is found.
+5.Return the count.
+6.Stop.
+-------------------------------------------------------
