@@ -279,3 +279,9 @@ algorithm:
 7.Return the head.
 8.Stop
 ---------------------------------------------------------------
+# Day 21
+
+problem statement:
+Given a string s consisting of words and spaces, return the length of the last word in the string.
+
+algorithm:
