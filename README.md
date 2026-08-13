@@ -293,3 +293,14 @@ algorithm:
 5.Return the count.
 6.Stop.
 -------------------------------------------------------
+# Day 22
+
+problem statement:Given two binary strings a and b, return their sum as a binary string
+
+algorithm:
+1.Convert binary a to decimal.
+2.Convert binary b to decimal.
+3.Add the two numbers.
+4.Convert the sum back to binary.
+5.Return the result.
+-------------------------------------------------------
