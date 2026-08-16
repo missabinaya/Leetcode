@@ -304,3 +304,35 @@ algorithm:
 4.Convert the sum back to binary.
 5.Return the result.
 -------------------------------------------------------
+
+# Day 23
+
+problem statement:You are climbing a staircase. It takes `n` steps to reach the top.
+Each time you can either climb `1` or `2` steps. In how many distinct ways can you climb to the top?
+
+algorithm:
+1.Start
+2.Read n.
+3.If n <= 2, return n.
+4.Set a = 1 and b = 2.
+5.Repeat from 3 to n.
+6.Calculate a, b = b, a + b.
+7.Return b.
+8.Stop
+---------------------------------------------------------
+# Day 24
+
+problem statement:
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid
+
+Algorithm:
+
+1.Start
+2.Create an empty stack.
+3.For each bracket:
+4.Push opening brackets.
+5.For closing brackets, check the top of stack.
+6.If brackets don't match, return False.
+7.If stack is empty at the end, return True.
+8.Stop.
+----------------------------------------------------------
