@@ -336,3 +336,16 @@ Algorithm:
 7.If stack is empty at the end, return True.
 8.Stop.
 ----------------------------------------------------------
+
+# Day 25
+
+problem statement:
+Given a positive integer num, return true if num is a perfect square or false otherwise.
+
+Algorithm:
+1.Start with i = 1.
+2.Check whether i × i == num.
+3.If yes, return True.
+4.If i × i > num, return False.
+5.Otherwise, increase i by 1 and repeat
+-----------------------------------------------------------
