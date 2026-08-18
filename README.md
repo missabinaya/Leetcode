@@ -349,3 +349,20 @@ Algorithm:
 4.If i × i > num, return False.
 5.Otherwise, increase i by 1 and repeat
 -----------------------------------------------------------
+# Day 26
+
+problem statement:
+
+
+algorithm:
+1.Start
+2.Read integer n.
+3.Create an empty list answer.
+4.Repeat i from 1 to n.
+5.If i is divisible by 3 and 5, add "FizzBuzz".
+6.Else if i is divisible by 3, add "Fizz".
+7.Else if i is divisible by 5, add "Buzz".
+8.Otherwise, add i as a string.
+9.Return answer.
+10.Stop
+------------------------------------------------------------
