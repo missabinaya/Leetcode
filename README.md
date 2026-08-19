@@ -366,3 +366,18 @@ algorithm:
 9.Return answer.
 10.Stop
 ------------------------------------------------------------
+ # Day 27
+
+ problem statement:
+ Given a string s which consists of lowercase or uppercase letters, return the length of the longest palindrome that can be built with those letter
+
+ Algorithm:
+
+1.Start.
+2.ead the string s.
+3.Count each character's frequency.
+4.Add all possible even counts to length.
+5.If any count is odd, add 1 to length.
+6.Return length.
+7.Stop.
+--------------------------------------------------------------
