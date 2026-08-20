@@ -381,3 +381,17 @@ algorithm:
 6.Return length.
 7.Stop.
 --------------------------------------------------------------
+# Day 28
+
+problem statement:Given two strings s and t, return true* if s is a subsequence of t, or false otherwise*
+
+algorithm:
+1.Start.
+2.Set i = 0 to point to the first character of s.
+3.Traverse each character of t.
+4.If the current character of t matches s[i], increment i.
+5.Continue until all characters of t are checked.
+6.If i equals the length of s, return True.
+7.Otherwise, return False.
+7.Stop.
+--------------------------------------------------------------
