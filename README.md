@@ -395,3 +395,18 @@ algorithm:
 7.Otherwise, return False.
 7.Stop.
 --------------------------------------------------------------
+# Day 29
+
+problem statement:Given two non-negative integers, num1 and num2 represented as string, return the sum of num1 and num2 as a string
+
+algorithm:
+
+1: Start.
+2: Set pointers at the last digits of both strings.
+3: Add digits along with carry.
+4: Store the last digit and update carry.
+5: Move pointers left and repeat.
+6: Reverse the result.
+7: Return the result.
+8: Stop.
+----------------------------------------------------------------
